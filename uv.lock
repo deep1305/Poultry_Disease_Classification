@@ -1881,6 +1881,20 @@ wheels = [
 ]
 
 [[package]]
+name = "jupyter-http-over-ws"
+version = "0.0.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "notebook" },
+    { name = "six" },
+    { name = "tornado" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d2/22/b339aa8949c7256f334c3a4ff930d83b6bd0edb7ca42ccc4ac701d0f39a7/jupyter_http_over_ws-0.0.8.tar.gz", hash = "sha256:b0aa1e7902d3808a698d4853f6dfe12fd02a0d9cb3851db3bf59703106d44a80", size = 14197, upload-time = "2020-03-12T16:09:41.161Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/71/b8/d0047d068facc913a354d14c4664b0ba99b8f30f8d66a1800e98549c06ce/jupyter_http_over_ws-0.0.8-py2.py3-none-any.whl", hash = "sha256:3052a94929d9fb41e4fe33fc22c569e81e018b9454a923bd818599bf62ffd85a", size = 18869, upload-time = "2020-03-12T16:09:39.632Z" },
+]
+
+[[package]]
 name = "jupyter-lsp"
 version = "2.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -3091,6 +3105,8 @@ dependencies = [
     { name = "ipykernel" },
     { name = "joblib" },
     { name = "jupyter" },
+    { name = "jupyter-http-over-ws" },
+    { name = "jupyterlab" },
     { name = "matplotlib" },
     { name = "notebook" },
     { name = "numpy" },
@@ -3113,6 +3129,8 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "joblib", specifier = ">=1.5.3" },
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "jupyter-http-over-ws", specifier = ">=0.0.8" },
+    { name = "jupyterlab", specifier = ">=4.5.7" },
     { name = "matplotlib", specifier = ">=3.10.9" },
     { name = "notebook", specifier = ">=7.5.6" },
     { name = "numpy", specifier = ">=2.4.6" },
