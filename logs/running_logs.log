@@ -142,3 +142,12 @@ x==========x]
 [2026-05-20 19:06:46,667: INFO: stage_04_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2026-05-20 19:19:59,978: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:80
+ * Running on http://192.168.2.37:80]
+[2026-05-20 19:19:59,979: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-05-20 19:21:18,474: INFO: _internal: 192.168.2.37 - - [20/May/2026 19:21:18] "GET / HTTP/1.1" 200 -]
+[2026-05-20 19:21:51,984: WARNING: config: TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.]
+[2026-05-20 19:21:51,988: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2026-05-20 19:21:53,145: INFO: _internal: 192.168.2.37 - - [20/May/2026 19:21:53] "POST /predict HTTP/1.1" 200 -]
